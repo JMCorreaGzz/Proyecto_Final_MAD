@@ -29,18 +29,23 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim Antiguedad As Decimal
         Dim nivel As Decimal
+        Dim puesto As String
         Dim obj As New EnlaceBD
-        Dim result As Boolean = False
+        Dim result As DataTable
 
         Antiguedad = Decimal.Parse(NivSal.Text)
         nivel = Decimal.Parse(Antig.Text)
+        puesto = NomPuest.Text
 
-        obj.Puestos("I", 0, "Banco", "Banorte", "Dinero", nivel, Antiguedad, 1)
+        result = obj.Puestos("I", 0, puesto, "Banorte", "Dinero", Antiguedad, nivel, 1)
 
-        If result Then
-            MessageBox.Show("El Puesto fue agregado")
-
-        End If
+        'If result Then
+        '    MessageBox.Show("El Puesto fue agregado")
+        '    NivSal.Text = ""
+        '    Antig.Text = ""
+        'Else
+        '    MessageBox.Show("El Puesto no fue agregado")
+        'End If
 
     End Sub
 
