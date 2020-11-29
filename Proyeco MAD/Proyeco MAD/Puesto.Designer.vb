@@ -36,13 +36,14 @@ Partial Class Puesto
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.BotMos2 = New System.Windows.Forms.Button()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 59)
+        Me.Label4.Location = New System.Drawing.Point(30, 59)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(97, 13)
         Me.Label4.TabIndex = 73
@@ -51,23 +52,23 @@ Partial Class Puesto
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(11, 78)
+        Me.ComboBox2.Location = New System.Drawing.Point(29, 78)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(259, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(195, 21)
         Me.ComboBox2.TabIndex = 72
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(276, 12)
+        Me.DataGridView1.Location = New System.Drawing.Point(276, 23)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(328, 315)
+        Me.DataGridView1.Size = New System.Drawing.Size(560, 340)
         Me.DataGridView1.TabIndex = 71
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(12, 168)
+        Me.Label3.Location = New System.Drawing.Point(30, 168)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(78, 13)
         Me.Label3.TabIndex = 70
@@ -75,15 +76,15 @@ Partial Class Puesto
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(11, 184)
+        Me.TextBox3.Location = New System.Drawing.Point(29, 184)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(218, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(195, 20)
         Me.TextBox3.TabIndex = 69
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 118)
+        Me.Label2.Location = New System.Drawing.Point(30, 118)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(82, 13)
         Me.Label2.TabIndex = 68
@@ -91,14 +92,14 @@ Partial Class Puesto
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(11, 134)
+        Me.TextBox1.Location = New System.Drawing.Point(29, 134)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(218, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(195, 20)
         Me.TextBox1.TabIndex = 67
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(120, 258)
+        Me.Button4.Location = New System.Drawing.Point(613, 393)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(102, 32)
         Me.Button4.TabIndex = 66
@@ -107,7 +108,7 @@ Partial Class Puesto
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(12, 258)
+        Me.Button3.Location = New System.Drawing.Point(505, 393)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(102, 32)
         Me.Button3.TabIndex = 65
@@ -116,7 +117,7 @@ Partial Class Puesto
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(120, 220)
+        Me.Button2.Location = New System.Drawing.Point(397, 393)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(102, 32)
         Me.Button2.TabIndex = 64
@@ -125,7 +126,7 @@ Partial Class Puesto
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 220)
+        Me.Button1.Location = New System.Drawing.Point(289, 393)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(102, 32)
         Me.Button1.TabIndex = 63
@@ -135,7 +136,7 @@ Partial Class Puesto
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 4)
+        Me.Label1.Location = New System.Drawing.Point(30, 4)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(59, 13)
         Me.Label1.TabIndex = 62
@@ -144,25 +145,34 @@ Partial Class Puesto
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(11, 23)
+        Me.ComboBox1.Location = New System.Drawing.Point(29, 23)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(259, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(195, 21)
         Me.ComboBox1.TabIndex = 61
         '
         'BotMos2
         '
-        Me.BotMos2.Location = New System.Drawing.Point(57, 296)
+        Me.BotMos2.Location = New System.Drawing.Point(721, 393)
         Me.BotMos2.Name = "BotMos2"
         Me.BotMos2.Size = New System.Drawing.Size(102, 31)
         Me.BotMos2.TabIndex = 74
         Me.BotMos2.Text = "MOSTRAR"
         Me.BotMos2.UseVisualStyleBackColor = True
         '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Location = New System.Drawing.Point(15, 232)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(226, 212)
+        Me.ListBox1.TabIndex = 75
+        '
         'Puesto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(616, 339)
+        Me.ClientSize = New System.Drawing.Size(848, 456)
+        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.BotMos2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.ComboBox2)
@@ -199,4 +209,5 @@ Partial Class Puesto
     Friend WithEvents Label1 As Label
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents BotMos2 As Button
+    Friend WithEvents ListBox1 As ListBox
 End Class

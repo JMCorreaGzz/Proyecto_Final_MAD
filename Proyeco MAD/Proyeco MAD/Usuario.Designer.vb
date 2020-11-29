@@ -23,7 +23,6 @@ Partial Class Usuario
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.ButEmpl = New System.Windows.Forms.Button()
-        Me.BotEmp = New System.Windows.Forms.Button()
         Me.ButDep = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.ButInc = New System.Windows.Forms.Button()
@@ -32,6 +31,7 @@ Partial Class Usuario
         Me.Label1 = New System.Windows.Forms.Label()
         Me.NomUsuario = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.btnEmpresas = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ButEmpl
@@ -42,15 +42,6 @@ Partial Class Usuario
         Me.ButEmpl.TabIndex = 0
         Me.ButEmpl.Text = "EMPLEADOS"
         Me.ButEmpl.UseVisualStyleBackColor = True
-        '
-        'BotEmp
-        '
-        Me.BotEmp.Location = New System.Drawing.Point(143, 83)
-        Me.BotEmp.Name = "BotEmp"
-        Me.BotEmp.Size = New System.Drawing.Size(116, 31)
-        Me.BotEmp.TabIndex = 1
-        Me.BotEmp.Text = "EMPRESAS"
-        Me.BotEmp.UseVisualStyleBackColor = True
         '
         'ButDep
         '
@@ -124,11 +115,21 @@ Partial Class Usuario
         Me.Label2.TabIndex = 10
         Me.Label2.Text = "Seleccione el menú a donde desea ingresar"
         '
+        'btnEmpresas
+        '
+        Me.btnEmpresas.Location = New System.Drawing.Point(143, 83)
+        Me.btnEmpresas.Name = "btnEmpresas"
+        Me.btnEmpresas.Size = New System.Drawing.Size(112, 30)
+        Me.btnEmpresas.TabIndex = 11
+        Me.btnEmpresas.Text = "EMPRESAS"
+        Me.btnEmpresas.UseVisualStyleBackColor = True
+        '
         'Usuario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(533, 195)
+        Me.Controls.Add(Me.btnEmpresas)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.NomUsuario)
         Me.Controls.Add(Me.Label1)
@@ -137,7 +138,6 @@ Partial Class Usuario
         Me.Controls.Add(Me.ButRep)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.ButDep)
-        Me.Controls.Add(Me.BotEmp)
         Me.Controls.Add(Me.ButEmpl)
         Me.Name = "Usuario"
         Me.Text = "Usuario"
@@ -147,7 +147,6 @@ Partial Class Usuario
     End Sub
 
     Friend WithEvents ButEmpl As Button
-    Friend WithEvents BotEmp As Button
     Friend WithEvents ButDep As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents ButInc As Button
@@ -156,4 +155,5 @@ Partial Class Usuario
     Friend WithEvents Label1 As Label
     Friend WithEvents NomUsuario As TextBox
     Friend WithEvents Label2 As Label
+    Friend WithEvents btnEmpresas As Button
 End Class

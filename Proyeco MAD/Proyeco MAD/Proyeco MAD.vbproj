@@ -74,6 +74,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Empresas.Designer.vb">
+      <DependentUpon>Empresas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empresas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Puesto.Designer.vb">
       <DependentUpon>Puesto.vb</DependentUpon>
     </Compile>
@@ -90,12 +96,6 @@
       <DependentUpon>Empleados.vb</DependentUpon>
     </Compile>
     <Compile Include="Empleados.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Empresas.Designer.vb">
-      <DependentUpon>Empresas.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Empresas.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EnlaceBD.vb" />
@@ -142,6 +142,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Empresas.resx">
+      <DependentUpon>Empresas.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Puesto.resx">
       <DependentUpon>Puesto.vb</DependentUpon>
     </EmbeddedResource>
@@ -150,9 +153,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Empleados.resx">
       <DependentUpon>Empleados.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Empresas.resx">
-      <DependentUpon>Empresas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Incidencias.resx">
       <DependentUpon>Incidencias.vb</DependentUpon>
