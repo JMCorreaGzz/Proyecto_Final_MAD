@@ -26,11 +26,22 @@
 
     End Sub
 
-    Private Sub ComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox2.SelectedIndexChanged
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim Antiguedad As Decimal
+        Dim nivel As Decimal
+        Dim obj As New EnlaceBD
+        Dim result As Boolean = False
+
+        Antiguedad = Decimal.Parse(NivSal.Text)
+        nivel = Decimal.Parse(Antig.Text)
+
+        obj.Puestos("I", 0, "Banco", "Banorte", "Dinero", nivel, Antiguedad, 1)
+
+        If result Then
+            MessageBox.Show("El Puesto fue agregado")
+
+        End If
 
     End Sub
 
-    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-
-    End Sub
 End Class

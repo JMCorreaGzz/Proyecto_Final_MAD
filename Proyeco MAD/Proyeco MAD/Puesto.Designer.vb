@@ -26,9 +26,9 @@ Partial Class Puesto
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Antig = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.NivSal = New System.Windows.Forms.TextBox()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -74,12 +74,12 @@ Partial Class Puesto
         Me.Label3.TabIndex = 70
         Me.Label3.Text = "ANTIGUEDAD"
         '
-        'TextBox3
+        'Antig
         '
-        Me.TextBox3.Location = New System.Drawing.Point(29, 184)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(195, 20)
-        Me.TextBox3.TabIndex = 69
+        Me.Antig.Location = New System.Drawing.Point(29, 184)
+        Me.Antig.Name = "Antig"
+        Me.Antig.Size = New System.Drawing.Size(195, 20)
+        Me.Antig.TabIndex = 69
         '
         'Label2
         '
@@ -90,12 +90,12 @@ Partial Class Puesto
         Me.Label2.TabIndex = 68
         Me.Label2.Text = "SUELDO BASE"
         '
-        'TextBox1
+        'NivSal
         '
-        Me.TextBox1.Location = New System.Drawing.Point(29, 134)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(195, 20)
-        Me.TextBox1.TabIndex = 67
+        Me.NivSal.Location = New System.Drawing.Point(29, 134)
+        Me.NivSal.Name = "NivSal"
+        Me.NivSal.Size = New System.Drawing.Size(195, 20)
+        Me.NivSal.TabIndex = 67
         '
         'Button4
         '
@@ -178,9 +178,9 @@ Partial Class Puesto
         Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.Antig)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.NivSal)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -199,9 +199,9 @@ Partial Class Puesto
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Antig As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents NivSal As TextBox
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
