@@ -1,0 +1,19 @@
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\bin\Debug\Proyeco MAD.exe.config
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\bin\Debug\Proyeco MAD.exe
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\bin\Debug\Proyeco MAD.pdb
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\bin\Debug\Proyeco MAD.xml
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco MAD.vbprojAssemblyReference.cache
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco_MAD.Puesto.resources
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco_MAD.Departamentos.resources
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco_MAD.Empleados.resources
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco_MAD.EMPRESAS.resources
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco_MAD.Incidencias.resources
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco_MAD.Log.resources
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco_MAD.Resources.resources
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco_MAD.Usuario.resources
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco MAD.vbproj.GenerateResource.cache
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco MAD.vbproj.CoreCompileInputs.cache
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco MAD.exe
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco MAD.xml
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco MAD.pdb
+C:\Users\FerGarza\Documents\VALERIA\PROYECTO MAD\Proyeco MAD\Proyeco MAD\obj\Debug\Proyeco_MAD.Perp.resources
